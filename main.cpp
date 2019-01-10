@@ -21,6 +21,7 @@ int main(int argc, char *argv[]) {
 
     // create and show your widgets here
     VueMeteo maVueMeteo;
+    maVueMeteo.mettreAjour();
     maVueMeteo.show() ;
     return app.exec();
 }
