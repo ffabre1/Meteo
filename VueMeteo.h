@@ -13,6 +13,7 @@
 
 #ifndef _VUEMETEO_H
 #define _VUEMETEO_H
+#include "BulletinMeteo.h"
 
 #include "ui_VueMeteo.h"
 
@@ -24,6 +25,7 @@ public:
     void mettreAjour() ;
 private:
     Ui::VueMeteo widget;
+    BulletinMeteo* dernierBulletinMeteo;
 };
 
 #endif /* _VUEMETEO_H */

@@ -21,5 +21,5 @@ VueMeteo::~VueMeteo() {
 }
 void VueMeteo::mettreAjour(){
     widget.vitesseVent->setText("15");
-    widget.temperature->setText("45");
+    widget.temperature->setText("20");
 }
